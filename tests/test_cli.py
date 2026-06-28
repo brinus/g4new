@@ -19,3 +19,4 @@ def test_version_exits_zero():
     runner = CliRunner()
     result = runner.invoke(main, ["--version"])
     assert result.exit_code == 0
+    assert "g4new" in result.output
