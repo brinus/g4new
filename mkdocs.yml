@@ -1,0 +1,14 @@
+site_name: g4new
+site_description: Easiest way to get a fully working Geant4 project ready to run
+repo_url: https://github.com/brinus/g4new
+repo_name: g4new
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+
+exclude_docs: |
+  superpowers/
